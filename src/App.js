@@ -39,7 +39,6 @@ function App() {
   const handleChange = (e) => {
     setSelectedOption(e);
     setInputVal(e ? e.label : "");
-    console.log(e);
   };
   return (
     <div className="App">
